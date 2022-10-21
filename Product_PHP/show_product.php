@@ -74,7 +74,7 @@
     $servername="localhost";
     $username="root";
     $password="12345678";
-    $dbname="shop";
+    $dbname="shopcolor";
 
     $per_page=10;
     $page = $_GET["page"];
@@ -145,6 +145,7 @@
             }
              echo "</table>";
             echo "<h1>ราคาสินค้า $total บาท</h1>";
+            echo "<h2><a href='del_all.php'>ลบสิ้นค้าทั้งหมด</a></h2>";
             echo "<h2><a href='check_out.php'>สั่งซื้อ</a></h2>";
         }
         

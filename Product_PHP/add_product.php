@@ -5,7 +5,7 @@
     $servername="localhost";
     $username="root";
     $password="12345678";
-    $dbname="shop";
+    $dbname="shopcolor";
     $con=mysqli_connect($servername,$username,$password,$dbname);
     if(!$con) die("Connnect mysql database fail!!".mysqli_connect_error());
     
